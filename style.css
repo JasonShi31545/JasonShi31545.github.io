@@ -1,5 +1,5 @@
 .montserrat-font {
-    font-family: "Montserrat", sans-serif;
+n    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 150;
     font-style: normal;
@@ -22,8 +22,10 @@ body {
 /* ---------- Layout ---------- */
 .container {
     max-width: 770px;
-    padding: 1.5rem 1.5rem;
+
+    padding: 1.2rem 1.5rem;
     margin: 0 auto;
+
 }
 
 /* ---------- Header ---------- */
@@ -90,6 +92,13 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.link-container {
+/* Add space between each span */
+    display: inline-flex;
+    gap: 0.4rem;
+    margin-right: 0.4rem;
 }
 
 /* ---------- Footer ---------- */
